@@ -14,7 +14,7 @@ public class EjecutaEstudiante {
         double nota1 = teclado.nextDouble();
         System.out.println("Ingrese la nota del segundo bimestre");
         double nota2 = teclado.nextDouble();
-        Estudiante total = new Estudiante(nota2, nota1, nombre);
+
         Estudiante estudiante = new Estudiante(nota2, nota1, nombre);
         // imprecion de datos
         System.out.println(estudiante.obtener_promedio(nombre, nota1, nota2));
