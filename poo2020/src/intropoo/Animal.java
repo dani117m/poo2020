@@ -53,6 +53,17 @@ public class Animal {
      */
     public String obetener_tipo_reproduccion (){ return tipo_reproduccion; }
 
+
+    /**
+     * Metodo para obtener el tiempo con hora minutos y segundos
+     * @return tiempo
+     */
+    public String obtener_crt (){
+        String tiempo = nombre+"\n"+tipo+"\n"+peso+"\n"+especie+"\n"+region+"\n"+sexo+"\n"+tipo_reproduccion;
+        return tiempo;
+    }
+
+
     /**
      * Metodo para obtener el valor de la variable nombre
      * @param nombre

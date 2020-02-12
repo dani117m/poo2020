@@ -4,13 +4,13 @@ public class EjecutaAnimal {
 
     public static void main(String[] args) {
         //Creacion del objeto caracteristicas de un animal
-        Animal caracteristicas = new caracteristicas();
-        caracteristicas.actualizar_hora(10);
-        caracteristicas.actualizar_minuto(51);
-        caracteristicas.actualizar_segundo(35);
-        String mostrar_tiempo = tiempo.obtener_tiempo();
+        Animal crt = new Animal();
+        crt.actualizar_nombre("Whisky");
+        crt.actualizar_tipo("canino");
+        crt.actualizar_peso(12);
+        String mostrar_crt = crt.obtener_crt();
         //sout para obetener un print de forma inmediata
-        System.out.println(mostrar_tiempo);
+        System.out.println(mostrar_crt);
 
 
     }
