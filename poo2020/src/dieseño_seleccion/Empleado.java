@@ -73,6 +73,7 @@ public class Empleado {
     public double getCuota() {
         return cuota;
     }
+
     /**
      * Metodo para obtener el valor de la variable cuota
      * @param cuota
