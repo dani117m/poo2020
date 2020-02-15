@@ -1,7 +1,5 @@
 package deber1;
 
-import org.omg.PortableInterceptor.ServerRequestInfo;
-
 public class Estudiante {
     private double bimestre1;
     private double bimestre2;

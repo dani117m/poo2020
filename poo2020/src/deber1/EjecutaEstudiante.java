@@ -1,7 +1,5 @@
 package deber1;
 
-import diseniopoo.Cerveza;
-
 import java.util.Scanner;
 
 public class EjecutaEstudiante {
