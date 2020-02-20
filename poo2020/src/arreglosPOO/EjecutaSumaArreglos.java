@@ -30,8 +30,9 @@ public class EjecutaSumaArreglos {
         sumaR.suma_arreglos();
         // presentacion
         System.out.println("La suma de los datos es la siguiente ");
+        int[] suma = sumaR.getSuma();
         for (int i = 0; i < 9; i++){
-            System.out.println(arreglo1[i]+"+"+arreglo2[i]+"="+sumaR.getSuma());
+            System.out.println(arreglo1[i]+"+"+arreglo2[i]+"="+suma[i]);
         }
 
 

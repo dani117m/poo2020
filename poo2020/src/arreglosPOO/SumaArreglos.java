@@ -2,8 +2,9 @@ package arreglosPOO;
 
 public class SumaArreglos {
     private int[] vectorA = new int[10];
-    private  int suma;
+    private  int[] suma = new int[10];
     private int[] vectorB = new int[10];
+
 
     public int[] getVectorA() {
         return vectorA;
@@ -13,11 +14,11 @@ public class SumaArreglos {
         this.vectorA = vectorA;
     }
 
-    public int getSuma() {
+    public int[] getSuma() {
         return suma;
     }
 
-    public void setSuma(int suma) {
+    public void setSuma(int[] suma) {
         this.suma = suma;
     }
 
@@ -30,9 +31,8 @@ public class SumaArreglos {
     }
 
     public void suma_arreglos (){
-
-        for (int i = 0; i < vectorA.length; i++){
-            suma =(vectorA[i] + vectorB[i]);
+        for (int i = 0; i < getVectorA().length; i++){
+            getSuma()[i] =(getVectorA()[i] + getVectorB()[i]);
         }
     }
 }
